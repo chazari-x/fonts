@@ -1,0 +1,8 @@
+version: '3'
+services:
+  fonts:
+    container_name: ningyotsukai-fonts-1
+    image: "chazari/fonts:latest"
+    ports:
+      - "8084:8084"
+    command: [ "/app/main", "fonts" ]
